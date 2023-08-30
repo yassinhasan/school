@@ -28,7 +28,7 @@ body {
 *::after {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
 }
 
 
@@ -41,7 +41,7 @@ header {
 
 nav {
   min-width: 28rem;
-  background: white;
+  background: white;er
   color: #0e0e0e;
   border-radius: 100vw;
 }
@@ -135,12 +135,16 @@ nav ul li a {
 
 
 /* navbar */
-
+.container {
+  /* height: 100%; 
+   margin-bottom: 70px; */
+   overflow-y: scroll;
+}
 
 main {
 
   margin-top: 60px;
-margin-bottom: 50px;
+margin-bottom: 130px;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 5px 15px 8px #e4e7fb;
   box-shadow: 0px 5px 15px 8px #e4e7fb;
@@ -181,7 +185,7 @@ h1 {
   font-family: "Rubik", sans-serif;
   font-size: 1.7rem;
   color: #141a39;
-  text-transform: uppercase;
+  
   cursor: default;
 }
 
@@ -399,9 +403,10 @@ max-height: 150px;
   transition: all 0.2s ease-in-out;
 }
 iframe {
+  padding: 1;
+  text-indent: 3;
   border: none;
-  
-  margin-left: 43px;
+  /* margin-left: 43px; */
 }
 
 
@@ -476,4 +481,17 @@ figure:hover img {
 }
 .footer i {
   color: #f55e77;
+}
+/* editor modal */
+.html_preview_div{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  /* padding-left: 15px !important; */
+  padding: 1;
+}
+
+.modal-content {
+      margin: 30px auto;
+}
+.run {
+  margin-bottom: 15px;
 }

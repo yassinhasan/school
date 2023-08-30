@@ -27,6 +27,7 @@
   
   // end navbar
 
+  // editor
   let html_code_div = document.querySelector(".html_code");
   let html_preview = document.querySelector(".html_preview");
   let run = document.querySelector(".run");
