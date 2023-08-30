@@ -44,6 +44,7 @@
 <!-- breadcrumb -->
 <!-- articles -->
       <div class="accordion" id="main_accordio">
+            <!-- why html -->
             <div class="card bg bg-info">
                 <div class="card-header" id="headingOne">
                     <h2 class="mb-0">
@@ -76,6 +77,8 @@
                     </div>
                 </div>
             </div>
+             <!-- why html end -->
+            <!-- head and body -->
             <div class="card bg bg-secondary">
                 <div class="card-header" id="headingTwo">
                     <h2 class="mb-0">
@@ -116,9 +119,15 @@
 <b>&lt;/html&gt;</b>
                                 </pre>
                         </div>
+                        <!-- try button -->
+                        <button class="btn btn-success" type="button" data-toggle="modal" data-target="#editor">Try Edit</button>
+
+                        <!-- try button -->
                     </div>
                 </div>
             </div>
+            <!-- end head and body -->
+            <!-- tag elemnts-->
             <div class="card bg bg-danger">
                 <div class="card-header" id="headingThree">
                     <h2 class="mb-0">
@@ -181,8 +190,33 @@
                     </div>
                 </div>
             </div>
+            <!-- end tag elemnts -->
       </div>
 <!-- articles -->
+
+                        <!-- Modal -->
+        <div class="modal fade" id="editor" tabindex="-1" role="dialog" aria-labelledby="editorModalLabel" aria-hidden="true">
+                        <div class="modal-dialog  modal-xl" role="document">
+                            <div class="modal-content">
+
+                            <div class="modal-body">
+                                <div class="row" style="width: 100%; justify-content: space-between;padding: 0 1rem;margin-bottom: 10px;">
+                                <h5 class="modal-title" style="font-weight: 800;" id="editorModalLabel">HTML</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="font-size: 1.5rem;">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control html_code" style="font-family: monospace;" id="exampleFormControlTextarea1" rows="10" ></textarea>
+                                  </div>
+                                <button type="button" class="btn btn-danger run">Run</button>
+                            </div>
+                            <div class="embed-responsive embed-responsive-16by9 html_preview_div">
+                                <iframe class="embed-responsive-item html_preview" src="" allowfullscreen></iframe>
+                              </div>
+                            </div>
+                        </div>
+        </div>
       </body>
     
 
