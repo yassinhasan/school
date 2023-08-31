@@ -193,8 +193,14 @@ pre{
 	font-weight: bold;
 }
 
+
+
+
 /* editor modal */
-/* editor modal */
+.html_code,.html_code.focus{
+  background-color: #00262b !important;
+  color: #fff !important;
+}
 .html_preview_div{
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   /* padding-left: 15px !important; */
@@ -207,6 +213,5 @@ pre{
 .run {
   margin-bottom: 15px;
 }
-
 
  
